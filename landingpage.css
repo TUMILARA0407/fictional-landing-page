@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient( 135deg, #0b0c10, #1f2833);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-family: 'orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: #00f0ff;
+    text-shadow: 0 0 10px ;
+    border-bottom: 1px solid #0f3151;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px 15px 10px ;
+    position: relative;
+}
+
+#hero h1{
+    font-family: 'orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-shadow: 0 0 50px  #00f0ff;
+    letter-spacing: 7px;
+
+}
+
+#hero p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+    font-weight: 490;
+    color: #a2dff0ee;
+    text-shadow: 0 0 10px #00f0ff;
+}
+
+ 
+
+#features{
+    background: #121619;
+    padding: 4rem 1.5rem 6rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 4px 8px 25px #00c9e6;
+    color: #d1e8f4;
+}
+
+#features h2{
+font-family: 'orbitron', sans-serif;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+margin-bottom: 25px;
+color: #00f0ff;
+text-shadow: 0 0 20px #00f0ff;
+letter-spacing: 4px;
+cursor: pointer;
+
+}
+
+.featureclass{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) );
+}
+
+.feature{
+    background: black;
+    padding: 35px 30px;
+    border-radius: 30px;
+    box-shadow: 0 8px 10px #0f3151;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+     
+    /* transition for the box shadow*/
+
+    transition: background 1s ease, 
+    box-shadow 2s ease,
+     transform 2s ease;
+}
+
+.feature:hover{
+    background: #00f0ff22;
+    box-shadow: 0 5px 10px #00f0ff;
+    transform: translate(20px)
+}
+
+.feature h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #c0eafc;
+}
+
+.feature p{
+    font-size: 17px;
+    text-align: center;
+    color: #a4cfe6;
+    line-height: 1.3;
+}
+
+footer{
+    text-align: center;
+    padding:77px 70px;
+    font-size: 0.9rem;
+    color: #a4cfe6;
+    margin-top: auto;
+    font-weight: 500;
+}
