@@ -39,7 +39,7 @@ alert( "CLICK OKAY TO VIEW THE PAGE"
 
     // Simulate success (you'd send data here with fetch() or AJAX)
     formMessage.textContent = "Thank you! Your message has been sent.";
-    formMessage.style.color = "green";
+    formMessage.style.color = "#0f3151";
     form.reset();
   });
 
